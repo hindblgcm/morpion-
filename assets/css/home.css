@@ -1,0 +1,100 @@
+header{
+    background-color: #f8f9fa;
+    padding: 10px 0;
+    padding: 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+li{
+    list-style-type: none;
+}
+ a{
+    text-decoration: none;
+    color: #000;        
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+main li {
+    list-style: none;
+    margin: 1rem 0;
+}
+
+main li a {
+    text-decoration: none;
+    color: #4CAF50;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+main li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin-top: 2rem;
+}
+
+.game {
+    margin-bottom: 2rem;
+}
+
+.game h2 {
+    color: #4CAF50;
+    margin-bottom: 0.5rem;
+}
+
+.game p {
+    margin: 0.5rem 0 1rem;
+    line-height: 1.5;
+}
+
+.game img {
+    width: 200px;;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+
+#btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+   
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+#btn:hover {
+  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}

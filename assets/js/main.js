@@ -45,14 +45,10 @@ let counter = 0;
 let playerOne = "X";
 let playerTwo = "O";
 
-let btnMorpion = document.createElement('button');
-btnMorpion.innerHTML = "Morpion";
-btnMorpion.classList.add('btnMorpion');
+let btnMorpion = document.querySelector('#morpion');
 container.appendChild(btnMorpion);
 
-let btnPquatre = document.createElement('button');
-btnPquatre.innerHTML = "Puissance4";
-btnPquatre.classList.add('btnPquatre');
+let btnPquatre = document.querySelector('#puissance4');
 container.appendChild(btnPquatre);
 
 
