@@ -10,7 +10,7 @@ btnreplay.classList.add('btnreplay');
 let msg = document.createElement('h1');
 msg.classList.add('entrer');
 container.appendChild(msg);
-msg.innerHTML = "Bienvenu dans mon univers, je te donne le choix je choisir entre deux jeux, seras-tu tentée par le morpion ou par le puissance quatre ? "
+msg.innerHTML = "Bienvenue sur le jeu du morpion et du puissance 4, choisissez votre jeu !";
 
 let scorePlayerOne=0
 scorePlayerOne.innerHTML= "Score joueur 1" + scorePlayerOne
@@ -333,6 +333,7 @@ btnPquatre.addEventListener('click', () => {
 
     btnreplay.addEventListener('click', () => {
         reset(puissanceQuatre)
+      
     });
     
 btncpu.addEventListener('click', () => {

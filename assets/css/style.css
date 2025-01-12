@@ -41,7 +41,7 @@ button {
     margin: 8px;
     cursor: pointer;
     border: none;
-    border-radius: 25px;
+ 
     font-size: 1em;
     font-weight: bold;
     transition: background-color 0.3s, transform 0.1s;
@@ -53,9 +53,15 @@ button:hover {
 
 .btnreplay { background-color: #4CAF50; color: white; }
 .btncpu { background-color: #2196F3; color: white; }
-.btnMorpion { background-color: #FF9800; color: white; }
-.btnPquatre { background-color: #E91E63; color: white; }
 
+
+#morpion {
+    background: red;
+}
+
+#puissance4 {
+    background: yellow;
+}
 .grille {
     display: flex;
     flex-direction: column;
